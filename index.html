@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALAM BHAVAN • Website Developed by :Jewel ALAM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-zinc-950 text-white font-['Inter'] overflow-x-hidden">
+
+    <!-- Progress Bar -->
+    <div id="progress-bar" class="scroll-progress w-0"></div>
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-zinc-950/80 backdrop-blur-xl border-b border-white/10 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-yellow-600 flex items-center justify-center text-xl font-bold">V</div>
+                <div>
+                    <h1 class="text-2xl font-['Playfair_Display'] tracking-tight">ALAM BHAVAN</h1>
+                    <p class="text-[10px] text-amber-400 -mt-1">EST. 2002</p>
+                  
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-10 text-sm font-medium">
+                <a href="#home" class="nav-link text-white hover:text-amber-400">Home</a>
+                <a href="#about" class="nav-link text-white hover:text-amber-400">The Home</a>
+                <a href="#features" class="nav-link text-white hover:text-amber-400">Features</a>
+                <a href="#gallery" class="nav-link text-white hover:text-amber-400">Gallery</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero-bg min-h-screen flex items-center relative">
+        <div class="max-w-7xl mx-auto px-6 pt-20">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2 rounded-full text-sm mb-6 border border-white/20">
+                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    West Bengal, India
+                </div>
+                
+                <h1 class="text-7xl md:text-8xl font-['Playfair_Display'] leading-none mb-6">
+                    A SANCTUARY<br>OF ELEGANCE
+                </h1>
+                
+                <p class="text-xl text-gray-300 mb-10 max-w-md">
+                    Modern luxury meets timeless serenity in this architectural masterpiece nestled in nature.
+                </p>
+                
+                <div class="flex items-center gap-5">
+                    <button onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })" 
+                            class="px-10 py-5 bg-amber-400 hover:bg-amber-300 text-zinc-900 rounded-2xl font-semibold text-lg flex items-center gap-3">
+                        Explore the Home
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </button>
+                    
+                    <button onclick="document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' })" 
+                            class="px-8 py-5 border border-white/30 hover:border-amber-400 rounded-2xl flex items-center gap-3">
+                        <i class="fa-solid fa-images"></i>
+                        <span>View Gallery</span>
+                    </button>
+                </div>
+
+                <div class="mt-16 flex items-center gap-12 text-sm">
+                    <div>
+                        <div class="text-amber-400 font-mono">5040</div>
+                        <div class="text-gray-400">sq.ft. Built</div>
+                    </div>
+                    <div>
+                        <div class="text-amber-400 font-mono">9</div>
+                        <div class="text-gray-400">Bedrooms</div>
+                    </div>
+                    <div>
+                        <div class="text-amber-400 font-mono">8</div>
+                        <div class="text-gray-400">Bathrooms</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-1/2 flex flex-col items-center gap-2">
+            <div class="text-xs tracking-widest opacity-60">SCROLL TO DISCOVER</div>
+            <div class="w-[1px] h-12 bg-gradient-to-b from-transparent via-white to-transparent"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-28 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-12 gap-16 items-center">
+                <div class="md:col-span-5">
+                    <img src="images/nature1.jpg" 
+                         class="w-full rounded-3xl shadow-2xl shadow-black/50" alt="Living Room">
+                </div>
+                
+                <div class="md:col-span-7">
+                    <div class="uppercase tracking-widest text-amber-400 text-sm mb-4">Welcome to Alam Bhavan</div>
+                    <h2 class="text-6xl font-['Playfair_Display'] leading-tight mb-8">
+                        Where architecture embraces nature
+                    </h2>
+                    <div class="prose prose-invert max-w-none text-lg text-gray-300">
+                        <p class="mb-6">
+                            Nestled in the serene landscapes of India, this contemporary villa redefines luxury living. 
+                            Designed with sustainable materials, and smart home technology, 
+                            Alam Bhavan offers an unparalleled living experience.
+                        </p>
+                        <p>
+                            Every corner tells a story of craftsmanship, comfort, and connection with the outdoors. 
+                            From the lush greenery to the private terrace garden, this home is 
+                            a true masterpiece of modern tropical architecture.
+                        </p>
+                    </div>
+                    
+                    <div class="grid grid-cols-3 gap-8 mt-16">
+                        <div>
+                            <div class="text-5xl font-light text-amber-400">2002</div>
+                            <div class="text-sm uppercase tracking-widest mt-1">Year Built</div>
+                        </div>
+                        <div>
+                            <div class="text-5xl font-light text-amber-400">4.8</div>
+                            <div class="text-sm uppercase tracking-widest mt-1">Earth Rating</div>
+                        </div>
+                        <div>
+                            <div class="text-5xl font-light text-amber-400">24/7</div>
+                            <div class="text-sm uppercase tracking-widest mt-1">Smart Home</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="py-28 bg-black">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-amber-400 text-sm tracking-widest">EXCEPTIONAL LIVING</span>
+                <h2 class="text-6xl font-['Playfair_Display'] mt-3">Signature Features</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card bg-zinc-900 rounded-3xl p-8 group">
+                    <div class="h-56 bg-[url('images/Feature1.jpg')] bg-cover bg-center rounded-2xl mb-8"></div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fa-solid fa-water text-3xl text-cyan-400"></i>
+                        <h3 class="text-3xl font-['Playfair_Display']">Rooftop Garden</h3>
+                    </div>
+                    <p class="text-gray-400">A Rooftop Garden for fresh and green vegetables.</p>
+                    <div class="mt-8 text-xs uppercase tracking-widest border-t border-white/10 pt-6 text-amber-400">Unique Gardening</div>
+                </div>
+
+                <div class="feature-card bg-zinc-900 rounded-3xl p-8 group">
+                    <div class="h-56 bg-[url('images/Feature2.jpg')] bg-cover bg-center rounded-2xl mb-8"></div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fa-solid fa-leaf text-3xl text-emerald-400"></i>
+                        <h3 class="text-3xl font-['Playfair_Display']">Private Garden</h3>
+                    </div>
+                    <p class="text-gray-400">Landscaped tropical garden with meditation pavilion and outdoor dining area.</p>
+                    <div class="mt-8 text-xs uppercase tracking-widest border-t border-white/10 pt-6 text-amber-400">Nature Integration</div>
+                </div>
+
+                <div class="feature-card bg-zinc-900 rounded-3xl p-8 group">
+                    <div class="h-56 bg-[url('images/Feature3.jpg')] bg-cover bg-center rounded-2xl mb-8"></div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <i class="fa-solid fa-house-signal text-3xl text-amber-400"></i>
+                        <h3 class="text-3xl font-['Playfair_Display']">Healthy Living</h3>
+                    </div>
+                    <p class="text-gray-400">More space for gardining and for vegetables .</p>
+                    <div class="mt-8 text-xs uppercase tracking-widest border-t border-white/10 pt-6 text-amber-400">Be Healthy </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-28 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <span class="text-amber-400 uppercase text-sm">Moments Captured</span>
+                    <h2 class="text-6xl font-['Playfair_Display']">Gallery</h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="images/1.jpg" class="gallery-img w-full aspect-[5/5] object-cover rounded-3xl cursor-pointer" alt="Interior">
+                <img src="images/2.jpg" class="gallery-img w-full aspect-[5/5] object-cover rounded-3xl cursor-pointer" alt="Exterior">
+                <img src="images/3.jpg" class="gallery-img w-full aspect-[5/5] object-cover rounded-3xl cursor-pointer" alt="Garden">
+                <img src="images/4.jpg" class="gallery-img w-full aspect-[5/5] object-cover rounded-3xl cursor-pointer" alt="Pool">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-16 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="flex justify-center mb-8">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-yellow-600 flex items-center justify-center text-2xl font-bold">V</div>
+                    <span class="text-3xl font-['Playfair_Display']">ALAM BHAVAN</span>
+                </div>
+            </div>
+            <p class="text-gray-500">© 2026 • A Private Luxury Residence in West Bengal, India | Website Developed by Jewel Alam</p>
+        </div>
+    </footer>
+
+    <script>
+        // Progress Bar
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById("progress-bar").style.width = scrolled + "%";
+        });
+    </script>
+</body>
+</html>
